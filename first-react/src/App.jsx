@@ -1,4 +1,5 @@
 import React from "react";
+import Page from "./Page";
 
 const App = () => {
   return(
@@ -11,6 +12,8 @@ const App = () => {
         <li>Is maintained by Meta</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
+
+      <Page />
     </main>
   );
 }
