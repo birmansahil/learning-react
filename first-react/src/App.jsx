@@ -1,5 +1,6 @@
 import React from "react";
 import Page from "./Page";
+import ComponentQuiz from "./ComponentQuiz";
 
 const App = () => {
   return(
@@ -14,6 +15,7 @@ const App = () => {
       </ul>
 
       <Page />
+      <ComponentQuiz />
     </main>
   );
 }
